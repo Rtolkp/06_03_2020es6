@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>super2</title>
+</head>
+<body>
+
+</body>
+<script>
+	class Vechile{
+		getP(){
+			return 'Gas Powered';
+		}
+	}
+	class Tesla extends Vechile{
+		getP(){
+			return 'Tesla  Vechile is'+super.getP()+'Electric Powered';
+		}
+	}
+	let model3=new Tesla();
+	let po=model3.getP();
+	console.log(po);
+</script>
+</html>

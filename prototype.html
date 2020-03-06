@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>prototype</title>
+</head>
+<body>
+
+</body>
+<script>
+	function Student(){
+		this.name='Kanna';
+		this.gender='Male';
+	}
+	Student.prototype.age=23;
+
+	var studObj1=new Student();
+	alert(studObj1.age);
+
+	var studObj2=new Student();
+	alert(studObj2.gender);
+	
+
+</script>
+</html>

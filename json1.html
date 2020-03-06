@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>json1</title>
+</head>
+<body>
+
+</body>
+<script>
+	var obj={
+		key_1:"kanna likes udith",
+		key_2:"kanna likes suresh"
+	}
+	var objasstring=JSON.stringify(obj);
+	console.log(objasstring);
+	console.log(typeof(objasstring));
+
+	var objasstringasobj=JSON.parse(objasstring);
+	console.log(objasstringasobj);
+	console.log(typeof(objasstringasobj));
+</script>
+</html>

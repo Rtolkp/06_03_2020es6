@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>extends</title>
+</head>
+<body>
+
+</body>
+<script>
+	class Root{
+		test(){
+			console.log("call from parent class");
+		}
+	}
+	class Child extends Root{}
+	class Leaf extends  Child{}
+	var obj=new Leaf();
+	obj.test()
+</script>
+</html>
